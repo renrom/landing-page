@@ -2,7 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #1f2937;
     margin: 0px;
-}
+    display: flex;
+    flex-direction: column;
+    
+    min-height: 100vh;
+    }
 
 
 a {
@@ -41,12 +45,11 @@ img.rcorner {
 }
 
 .bodypartone-container {
-    margin-top:0px;
     padding-top:0px;
     display: flex;
     margin: 150px;
-    margin-top: 100px;
-    margin-bottom: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     flex:1;
     justify-content: space-between;
     
@@ -66,9 +69,9 @@ img.rcorner {
 .button {
     background-color: #3882f6;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
-    border: none;
+    
     padding: 8px 20px;
     border-radius: 12%;
     text-decoration: none;
@@ -79,10 +82,10 @@ img.rcorner {
     background-color: white;
     margin: 0px;
     text-align: center;
-    height: 300px;
+    
     width: 100%;
     padding-top:10px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
    
 }
 
@@ -98,7 +101,7 @@ ul {
     
 }
 
-li {
+.navitems li {
     width: 200px;
 }
 
@@ -130,4 +133,56 @@ li {
     text-align: right;
     font-weight: bold;
 
+}
+
+.bottompart {
+    background-color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}
+
+
+.part1 {
+    text-align: left;
+    color: white;
+    background: #3882f6;
+    border-radius: 10px;
+    width: 850px;
+    padding: 10px 50px;
+
+}
+
+.lastlist {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lastlist h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.button2 {
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 8px 20px;
+    border-radius: 12%;
+    text-decoration: none;
+
+}
+
+.footer {
+    color: #e5e7eb;
+    text-align: center;
+    padding: 20px;
+    
 }
