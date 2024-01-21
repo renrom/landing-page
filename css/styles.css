@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1f2937;
+    margin: 0px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.header-container {
+    font-size: 18px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border: 0px;
+    align-items: center;
+    margin-bottom: 0px;
+    
+}
+
+img.rcorner {
+    border-radius: 3%;
+}
+.navitems {
+    width: 250px;
+    display: flex;
+    flex: 1;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 10px;
+
+}
+
+.bodypartone-container {
+    margin-top:0px;
+    padding-top:0px;
+    display: flex;
+    margin: 150px;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    flex:1;
+    justify-content: space-between;
+    
+       
+}
+
+.titletext {
+    color: white;
+    font-size: 36px;
+}
+
+.boxtext {
+    color: rgb(179, 175, 175);
+    font-size: 18px;
+}
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 12%;
+    text-decoration: none;
+
+}
+
+.bodyparttwo-container {
+    background-color: white;
+    margin: 0px;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom: 5px;
+   
+}
+
+.bodyparttwo-right ul {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 10px;
+   }
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    width: 200px;
+}
+
+.rounded-corners {
+    border-radius: 10%;
+    border: 3px solid #3882f6;
+    
+}
+
+.bodylast {
+
+    height: 250px;
+    background-color: #e5e7eb;
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+
+}
+
+.middletext {
+    font-size: 32px;
+    font-style: italic;
+    font-weight :100;
+    color: #1f2937;
+}
+
+.quotedby {
+    text-align: right;
+    font-weight: bold;
+
+}
